@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayoutAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pages_in_book">Pages in Book</string>
+    <string name="add_book">Add Book</string>
+    <string name="author_of_book">Author of Book</string>
+    <string name="title_of_book">Title of Book</string>
+</resources>

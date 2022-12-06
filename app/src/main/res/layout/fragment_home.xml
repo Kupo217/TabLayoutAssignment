@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_of_book"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author_of_book"
+        android:layout_marginTop="15dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pages_in_book"
+        android:inputType="number"
+        android:layout_marginTop="15dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddBook"
+        android:text="@string/add_book"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/black"
+        android:layout_marginTop="15dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
